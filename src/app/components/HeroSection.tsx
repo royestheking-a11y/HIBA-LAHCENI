@@ -51,7 +51,7 @@ export function HeroSection() {
         <motion.h1
           initial={{ opacity: 0, scale: 0.95, y: 30 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
+          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           className="text-[17vw] sm:text-[14vw] md:text-[12vw] lg:text-[10vw] leading-[0.9] md:leading-[0.8] tracking-[-0.04em] font-bold uppercase text-center whitespace-nowrap"
           style={{ fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif" }}
         >
@@ -63,7 +63,7 @@ export function HeroSection() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
+        transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
         className="absolute bottom-0 left-[50%] transform -translate-x-1/2 w-full sm:w-[80vw] md:w-[60vw] h-[60vh] md:h-[75vh] z-0 overflow-hidden"
       >
         <motion.div style={{ y: imgY, height: "120%" }} className="w-full">
@@ -81,7 +81,7 @@ export function HeroSection() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
+        transition={{ duration: 1, delay: 0.6 }}
         className="absolute bottom-8 md:bottom-12 w-full px-6 md:px-16 flex flex-col md:flex-row justify-between items-center md:items-end gap-6 z-20 mix-blend-difference text-white"
       >
         <button
